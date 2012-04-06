@@ -1,0 +1,242 @@
+<presets author="pnorman" version="6">
+	<group name="Canadian Stores">
+		<group name="Food">
+			<item name="Starbucks">
+				<key key="amenity" value="cafe" />
+				<key key="name" value="Starbucks" />
+				<key key="website" value="http://www.starbucks.com/" />
+				<optional>
+					<combo key="internet_access" values="wlan" text="Many Starbucks locations have wlan access" delete_if_empty="true" />
+				</optional>
+			</item>
+			<item name="McDonalds">
+				<key key="amenity" value="fast_food" />
+				<key key="name" value="McDonald's" />
+				<key key="cuisine" value="burger" />
+				<optional>
+					<check key="drive_through" text="Drive through" default="off" delete_if_empty="true" />
+				</optional>
+			</item>
+			<item name="Subway">
+				<key key="amenity" value="fast_food" />
+				<key key="cuisine" value="sandwich" />
+				<key key="name" value="Subway" />
+				<key key="brand" value="Subway" />
+				<key key="website" value="http://www.subway.com/" />
+			</item>
+			<item name="Quiznos">
+				<key key="amenity" value="fast_food" />
+				<key key="cuisine" value="sandwich" />
+				<key key="name" value="Quiznos" />
+				<key key="brand" value="Quiznos" />
+				<key key="website" value="http://www.quiznos.ca/" />
+			</item>
+			<item name="Dairy Queen">
+				<key key="amenity" value="fast_food" />
+				<key key="name" value="Dairy Queen" />
+				<key key="brand" value="Dairy Queen" />
+				<key key="cuisine" value="ice_cream" />
+				<key key="website" value="http://www.dairyqueen.com/" />
+				<optional>
+					<text key="name" text="Location Name" default="Dairy Queen" delete_if_empty="true" />
+					<check key="drive_through" text="Drive through" default="off" delete_if_empty="true" />
+				</optional>
+			</item>
+		</group>
+
+		<!-- Todo: Add husky, mohawk -->
+		<group name="Gas">
+			<item name="Chevron" icon="presets/fuel.png" type="node,closedway">
+				<label text="Edit Fuel" />
+				<key key="amenity" value="fuel" />
+				<key key="brand" value="Chevron" />
+				<key key="operator" value="Chevron" />
+				<key key="name" value="Chevron" />
+				<key key="website" value="http://www.chevron.com/" />
+				<optional>
+					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true" />
+					<combo key="shop" text="With shop" values="yes,convenience,kiosk,no" default="" delete_if_empty="true" />
+					<label text="Fuel types:" />
+					<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:biodiesel" text="Bio Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:HGV_diesel" text="Diesel for only Heavy Good Vehicles" default="off" delete_if_empty="true" />
+					<check key="fuel:octane_87" text="Chevron Regular (Octane 87)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_89" text="Chevron Plus (Octane 89)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_91" text="Chevron Supreme (Octane 91)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_94" text="Chevron Supreme Plus (Octane 94)" default="off" delete_if_empty="true" />
+					<check key="fuel:lpg" text="Propane" default="off" delete_if_empty="true" />
+				</optional>
+			</item>
+			<item name="Esso" icon="presets/fuel.png" type="node,closedway">
+				<label text="Edit Fuel" />
+				<key key="amenity" value="fuel" />
+				<key key="brand" value="Esso" />
+				<key key="operator" value="Esso" />
+				<key key="name" value="Esso" />
+				<key key="website" value="http://www.esso.com/" />
+				<optional>
+					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true" />
+					<combo key="shop" text="With shop" values="yes,convenience,kiosk,no" default="" delete_if_empty="true" />
+					<label text="Fuel types:" />
+					<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:biodiesel" text="Bio Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:HGV_diesel" text="Diesel for only Heavy Good Vehicles" default="off" delete_if_empty="true" />
+					<check key="fuel:octane_87" text="Esso Regular (Octane 87)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_89" text="Esso Extra (Octane 89)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_91" text="Esso Supreme (Octane 91)" default="on" delete_if_empty="true" />
+					<check key="fuel:lpg" text="Propane" default="off" delete_if_empty="true" />
+				</optional>
+			</item>
+			
+			
+			<item name="Petro-Canada" icon="presets/fuel.png" type="node,closedway">
+				<label text="Petro-Canada" />
+				<key key="amenity" value="fuel" />
+				<key key="brand" value="Petro-Canada" />
+				<key key="operator" value="Petro-Canada" />
+				<key key="name" value="Petro-Canada" />
+				<key key="website" value="http://retail.petro-canada.ca/" />
+
+				<label text="Fuel types:" />
+				<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true" />
+				<check key="fuel:biodiesel" text="Bio Diesel" default="off" delete_if_empty="true" />
+				<check key="fuel:HGV_diesel" text="Diesel for only Heavy Good Vehicles" default="off" delete_if_empty="true" />
+				<check key="fuel:octane_87" text="RegularClean (Octane 87)" default="on" />
+				<check key="fuel:octane_89" text="PlusClean (Octane 89)" default="on" />
+				<check key="fuel:octane_91" text="SuperClean (Octane 91)" default="on" />
+				<check key="fuel:octane_94" text="SuperClean 94 (Montreal) (Octane 94)" default="off" delete_if_empty="true" />
+				<check key="fuel:lpg" text="Propane" default="off" delete_if_empty="true" />
+				<check key="fuel:cng" text="CNG" default="off" delete_if_empty="true" />
+
+				<optional>
+					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true" />
+					<combo key="shop" text="With shop" values="yes,convenience,kiosk,no" default="" delete_if_empty="true" />
+				</optional>
+			</item>
+			<item name="Shell" icon="presets/fuel.png" type="node,closedway">
+				<label text="Edit Fuel" />
+				<key key="amenity" value="fuel" />
+				<key key="brand" value="Shell" />
+				<key key="operator" value="Shell" />
+				<key key="name" value="Shell" />
+				<key key="website" value="http://www.shell.ca/" />
+				<optional>
+					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true" />
+					<combo key="shop" text="With shop" values="yes,convenience,kiosk,no" default="" delete_if_empty="true" />
+					<label text="Fuel types:" />
+					<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:biodiesel" text="Bio Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:HGV_diesel" text="Diesel for only Heavy Good Vehicles" default="off" delete_if_empty="true" />
+					<check key="fuel:octane_87" text=" (Octane 87)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_89" text=" (Octane 89)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_91" text="V-Power Premium (Octane 91)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_94" text="(Octane 94)" default="off" delete_if_empty="true" />
+					<check key="fuel:lpg" text="Propane" default="off" delete_if_empty="true" />
+					<check key="fuel:cng" text="CNG" default="off" delete_if_empty="true" />
+				</optional>
+			</item>
+			<item name="Husky" icon="presets/fuel.png" type="node,closedway">
+				<label text="Edit Fuel" />
+				<key key="amenity" value="fuel" />
+				<key key="brand" value="Husky" />
+				<key key="operator" value="Husky" />
+				<key key="name" value="Husky" />
+				<key key="website" value="http://www.myhusky.ca/" />
+				<optional>
+					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true" />
+					<combo key="shop" text="With shop" values="yes,convenience,kiosk,no" default="" delete_if_empty="true" />
+					<label text="Fuel types:" />
+					<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:biodiesel" text="Bio Diesel" default="off" delete_if_empty="true" />
+					<check key="fuel:HGV_diesel" text="Diesel for only Heavy Good Vehicles" default="off" delete_if_empty="true" />
+					<check key="fuel:octane_87" text=" (Octane 87)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_89" text=" (Octane 89)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_91" text=" (Octane 91)" default="on" delete_if_empty="true" />
+					<check key="fuel:octane_94" text=" (Octane 94)" default="off" delete_if_empty="true" />
+					<check key="fuel:lpg" text="Propane" default="off" delete_if_empty="true" />
+					<check key="fuel:cng" text="CNG" default="off" delete_if_empty="true" />
+				</optional>
+			</item>
+		</group>
+		<group name="Hardware">
+			<item name="Canadian Tire">
+				<key key="shop" value="doityourself" />
+				<key key="name" value="Canadian Tire" />
+				<key key="operator" value="Canadian Tire" />
+				<key key="website" value="http://www.canadiantire.ca/" />
+			</item>
+			<item name="Rona">
+				<key key="shop" value="doityourself" />
+				<key key="name" value="Rona" />
+				<key key="operator" value="Rona" />
+				<key key="website" value="http://www.rona.ca/" />
+			</item>
+		</group>
+		<group name="Stationary">
+			<item name="Staples">
+				<key key="shop" value="stationary" />
+				<key key="name" value="Staples" />
+				<key key="operator" value="Staples" />
+				<key key="website" value="http://www.staples.ca/" />
+			</item>
+		</group>
+		
+		<group name="Department">
+			<group name="London Drugs">
+				<item name="London Drugs">
+					<key key="shop" value="department_store" />
+					<key key="name" value="London Drugs" />
+					<key key="operator" value="London Drugs" />
+					<key key="website" value="http://www.londondrugs.ca/" />
+				</item>
+				<item name="London Drugs Pharmacy">
+					<key key="amenity" value="pharmacy" />
+					<key key="dispensing" value="yes" />
+					<key key="name" value="London Drugs Pharmacy" />
+					<key key="operator" value="London Drugs" />
+					<key key="website" value="http://www.londondrugs.ca/" />
+				</item>
+			</group>
+		</group>	
+		<group name="Shipping">
+			<group name="UPS">
+				<item name="UPS Customer Centre" >
+					<key key="amenity" value="post_office" />
+					<key key="name" value="UPS Customer Centre" />
+					<key key="operator" value="UPS" />
+					<key key="website" value="http://www.ups.com/" />
+				</item>
+				<item name="UPS Store (Full-service)" >
+					<key key="amenity" value="post_office" />
+					<key key="name" value="UPS Store" />
+					<key key="operator" value="UPS" />
+					<key key="website" value="http://www.ups.com/" />
+				</item>
+			</group>
+			<group name="Purolator">
+				<item name="Purolator Shipping Centre" >
+					<key key="amenity" value="post_office" />
+					<key key="name" value="Purolator Shipping Centre" />
+					<key key="operator" value="Purolator" />
+					<key key="website" value="http://www.purolator.com/" />
+				</item>
+			</group>
+		</group>
+		<group name="Financial">
+			<group name="Banks">
+		
+			</group>
+			<group name="Financial services">
+				<item name="G&amp;F Financial">
+					<key key="name" value="G&amp;F Financial" />
+					<key key="website" value="http://www.gffg.com/Personal/" />
+					<optional>
+						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
+					</optional>
+				</item>
+					
+			</group>
+			
+		</group>
+	</group>	
+</presets>
