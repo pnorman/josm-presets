@@ -183,6 +183,11 @@
 				<key key="operator" value="Rona" />
 				<key key="website" value="http://www.rona.ca/" />
 			</item>
+			<item name="General Paint">
+				<key key="shop" value="paint" />
+				<key key="name" value="General Paint" />
+				<key key="website" value="http://www.generalpaint.com/" />
+			</item>
 		</group>
 		<group name="Stationary">
 			<item name="Staples">
