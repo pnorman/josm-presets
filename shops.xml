@@ -58,6 +58,11 @@
 
 		<group name="Shopping">
 			<group name="Food">
+				<item name="Safeway">
+					<key key="shop" value="supermarket" />
+					<key key="name" value="Safeway" />
+					<key key="website" value="http://www.safeway.ca/" />
+				</item>
 			</group>
 		</group>
 		<!-- Todo: Add husky, mohawk -->
