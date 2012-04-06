@@ -236,9 +236,34 @@
 		</group>
 		<group name="Financial">
 			<group name="Banks">
-		
-			</group>
-			<group name="Financial services">
+				<item name="TD">
+					<key key="name" value="TD Canada Trust" />
+					<key key="website" value="http://www.tdcanadatrust.com/" />
+					<optional>
+						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
+					</optional>
+				</item>	
+				<item name="HSBC">
+					<key key="name" value="HSBC" />
+					<key key="website" value="http://www.hsbc.ca/" />
+					<optional>
+						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
+					</optional>
+				</item>	
+				<item name="RBC">
+					<key key="name" value="RBC" />
+					<key key="website" value="http://www.rbcroyalbank.com/" />
+					<optional>
+						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
+					</optional>
+				</item>	
+				<item name="VanCity">
+					<key key="name" value="VanCity" />
+					<key key="website" value="http://www.vancity.com/" />
+					<optional>
+						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
+					</optional>
+				</item>	
 				<item name="G&amp;F Financial">
 					<key key="name" value="G&amp;F Financial" />
 					<key key="website" value="http://www.gffg.com/Personal/" />
