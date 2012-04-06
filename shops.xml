@@ -188,6 +188,11 @@
 				<key key="name" value="General Paint" />
 				<key key="website" value="http://www.generalpaint.com/" />
 			</item>
+			<item name="General Paint">
+				<key key="shop" value="paint" />
+				<key key="name" value="Cloverdale Paint" />
+				<key key="website" value="http://www.cloverdalepaint.com/" />
+			</item>
 		</group>
 		<group name="Stationary">
 			<item name="Staples">
