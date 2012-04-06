@@ -49,6 +49,11 @@
 				<key key="cuisine" value="pizza" />
 				<key key="website" value="http://www.pizzahut.ca/" />
 			</item>
+			<item name="Phơ Hỏa">
+				<key key="amenity" value="restaurant"/>
+				<key key="name" value="Phơ Hỏa"/>
+				<key key="website" value="http://phohoa.com/"/>
+			</item>
 		</group>
 
 		<!-- Todo: Add husky, mohawk -->
