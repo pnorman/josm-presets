@@ -42,6 +42,13 @@
 					<check key="drive_through" text="Drive through" default="off" delete_if_empty="true" />
 				</optional>
 			</item>
+			<item name="Pizza Hut">
+				<key key="amenity" value="restaurant" />
+				<key key="name" value="Pizza Hut" />
+				<key key="brand" value="Pizza Hut" />
+				<key key="cuisine" value="pizza" />
+				<key key="website" value="http://www.pizzahut.ca/" />
+			</item>
 		</group>
 
 		<!-- Todo: Add husky, mohawk -->
