@@ -56,6 +56,10 @@
 			</item>
 		</group>
 
+		<group name="Shopping">
+			<group name="Food">
+			</group>
+		</group>
 		<!-- Todo: Add husky, mohawk -->
 		<group name="Gas">
 			<item name="Chevron" icon="presets/fuel.png" type="node,closedway">
