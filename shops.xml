@@ -271,9 +271,19 @@
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
 				</item>
-					
+				
+			</group>
+			<group name="Financial services">
+
 			</group>
 			
+		</group>
+		<group name="Car Repair">
+			<item name="Midas">
+				<key key="name" value="Midas"/>
+				<key key="website" value="http://www.midas.com/"/>
+				<key key="shop" value="car_repair"/>
+			</item>
 		</group>
 	</group>	
 </presets>
