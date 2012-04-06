@@ -284,6 +284,11 @@
 				<key key="website" value="http://www.midas.com/"/>
 				<key key="shop" value="car_repair"/>
 			</item>
+			<item name="Lordco">
+				<key key="name" value="Lordco"/>
+				<key key="website" value="http://www.lordco.com"/>
+				<key key="shop" value="car_repair"/>
+			</item>
 		</group>
 	</group>	
 </presets>
