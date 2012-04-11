@@ -49,6 +49,12 @@
 				<key key="cuisine" value="pizza" />
 				<key key="website" value="http://www.pizzahut.ca/" />
 			</item>
+			<item name="Tim Hortons">
+				<key key="amenity" value="cafe" />
+				<key key="name" value="Tim Hortons" />
+				<key key="cuisine" value="donut" />
+				<key key="website" value="http://www.timhortons.com/" />
+			</item>
 			<item name="Phơ Hỏa">
 				<key key="amenity" value="restaurant"/>
 				<key key="name" value="Phơ Hỏa"/>
