@@ -298,7 +298,11 @@
 				
 			</group>
 			<group name="Financial services">
-
+				<item name="H&amp;R Block">
+					<key key="name" value="H&amp;R Block" />
+					<key key="website" value="http://www.hrblock.ca/" />
+					<key key="office" value="financial" />
+				</item>
 			</group>
 			
 		</group>
