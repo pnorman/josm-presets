@@ -258,6 +258,7 @@
 				<item name="TD">
 					<key key="name" value="TD Canada Trust" />
 					<key key="website" value="http://www.tdcanadatrust.com/" />
+					<key key="amenity" value="bank" />
 					<optional>
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
@@ -265,6 +266,7 @@
 				<item name="HSBC">
 					<key key="name" value="HSBC" />
 					<key key="website" value="http://www.hsbc.ca/" />
+					<key key="amenity" value="bank" />
 					<optional>
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
@@ -272,6 +274,7 @@
 				<item name="RBC">
 					<key key="name" value="RBC" />
 					<key key="website" value="http://www.rbcroyalbank.com/" />
+					<key key="amenity" value="bank" />
 					<optional>
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
@@ -279,13 +282,15 @@
 				<item name="VanCity">
 					<key key="name" value="VanCity" />
 					<key key="website" value="http://www.vancity.com/" />
+					<key key="amenity" value="bank" />
 					<optional>
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
 				</item>	
 				<item name="G&amp;F Financial">
 					<key key="name" value="G&amp;F Financial" />
-					<key key="website" value="http://www.gffg.com/Personal/" />
+					<key key="website" value="http://www.gffg.com/" />
+					<key key="amenity" value="bank" />
 					<optional>
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
