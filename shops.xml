@@ -323,6 +323,11 @@
 				<key key="website" value="http://www.lordco.com"/>
 				<key key="shop" value="car_repair"/>
 			</item>
+			<item name="Budget Brake &amp; Muffler">
+				<key key="name" value="Budget Brake &amp; Muffler Auto Centres"/>
+				<key key="website" value="http://www.budgetbrake.com/"/>
+				<key key="shop" value="car_repair"/>
+			</item>
 		</group>
 	</group>	
 </presets>
