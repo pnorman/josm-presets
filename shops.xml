@@ -1,4 +1,4 @@
-<presets author="pnorman" version="6">
+<presets author="pnorman" version="7">
 	<group name="Canadian Stores">
 		<group name="Food">
 			<item name="Starbucks">
@@ -285,6 +285,14 @@
 						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
 					</optional>
 				</item>	
+				<item name="Scotiabank">
+					<key key="name" value="Scotiabank" />
+					<key key="website" value="http://www.scotiabank.com/" />
+					<key key="amenity" value="bank" />
+					<optional>
+						<check key="atm" text="ATM" default="off" delete_if_empty="true" />
+					</optional>
+				</item>
 				<item name="VanCity">
 					<key key="name" value="VanCity" />
 					<key key="website" value="http://www.vancity.com/" />
